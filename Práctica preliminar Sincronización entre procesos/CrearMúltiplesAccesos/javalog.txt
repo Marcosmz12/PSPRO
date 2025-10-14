@@ -1,0 +1,64 @@
+Creado el proceso 0
+Creado el proceso 1
+Creado el proceso 2
+Creado el proceso 3
+Creado el proceso 4
+Creado el proceso 5
+Creado el proceso 6
+Creado el proceso 7
+Creado el proceso 8
+Creado el proceso 9
+Creado el proceso 10
+Creado el proceso 11
+Creado el proceso 12
+Creado el proceso 13
+Creado el proceso 14
+Creado el proceso 15
+Creado el proceso 16
+Creado el proceso 17
+Creado el proceso 18
+Proceso 0: Creando el fichero.
+Proceso 0: Valor leído del fichero: 0
+Proceso 0: Valor escrito en el fichero: 1
+Creado el proceso 19
+Creado el proceso 20
+Proceso 6: Valor leído del fichero: 1
+Proceso 6: Valor escrito en el fichero: 2
+Proceso 5: Valor leído del fichero: 1
+Proceso 5: Valor escrito en el fichero: 2
+Proceso 7: Valor leído del fichero: 1
+Proceso 7: Valor escrito en el fichero: 2
+Proceso 3: Valor leído del fichero: 1
+Proceso 3: Valor escrito en el fichero: 2
+Proceso 8: Valor leído del fichero: 2
+Proceso 8: Valor escrito en el fichero: 3
+Proceso 1: Valor leído del fichero: 2
+Proceso 1: Valor escrito en el fichero: 3
+Proceso 15: Valor leído del fichero: 3
+Proceso 15: Valor escrito en el fichero: 4
+Proceso 17: Valor leído del fichero: 3
+Proceso 17: Valor escrito en el fichero: 4
+Proceso 18: Valor leído del fichero: 4
+Proceso 18: Valor escrito en el fichero: 5
+P12 Error al leer del fichero
+Proceso 12: Valor escrito en el fichero: 1
+Proceso 14: Valor leído del fichero: 1
+Proceso 14: Valor escrito en el fichero: 2
+Proceso 13: Valor leído del fichero: 1
+Proceso 13: Valor escrito en el fichero: 2
+Proceso 2: Valor leído del fichero: 2
+Proceso 2: Valor escrito en el fichero: 3
+Proceso 10: Valor leído del fichero: 2
+Proceso 10: Valor escrito en el fichero: 3
+Proceso 20: Valor leído del fichero: 3
+Proceso 20: Valor escrito en el fichero: 4
+Proceso 11: Valor leído del fichero: 3
+Proceso 11: Valor escrito en el fichero: 4
+Proceso 19: Valor leído del fichero: 4
+Proceso 19: Valor escrito en el fichero: 5
+Proceso 9: Valor leído del fichero: 5
+Proceso 9: Valor escrito en el fichero: 6
+Proceso 16: Valor leído del fichero: 5
+Proceso 16: Valor escrito en el fichero: 6
+Proceso 4: Valor leído del fichero: 6
+Proceso 4: Valor escrito en el fichero: 7
