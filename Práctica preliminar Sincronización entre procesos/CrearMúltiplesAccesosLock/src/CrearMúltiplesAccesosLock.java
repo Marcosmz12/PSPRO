@@ -64,7 +64,7 @@ public class CrearMúltiplesAccesosLock {
         archivo.createNewFile(); // Lo creamos
         raf = new RandomAccessFile(archivo, "rw"); // Abrimos el fichero
         // El modo tiene que ser lectura-escritura. No es posible sólo escritura
-        raf.writeInt(0); // Escribimos el valor inicial 0
+        raf.writeBytes(String.valueOf(0)); // Escribimos el valor inicial 0
         System.out.println("Creado el fichero.");
       } catch (Exception e) {
         System.err.println("Error al crear el fichero");

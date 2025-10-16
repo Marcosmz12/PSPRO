@@ -75,10 +75,11 @@ public class AccesoMúltipleFicheroLock {
         // representa el bloqueo para después poder liberarlo
         System.out.println("Proceso " + orden + ": ENTRA sección");
         // Lectura del fichero
-        valor = raf.readChar(); // leemos el valor
+        valor = Integer.parseInt(raf.readLine());
+        System.out.println("Valor leído " + valor); // leemos el valor
         valor++; // incrementamos
         raf.seek(0); // volvemos a colocarnos al principio del fichero
-        raf.writeChars(String.valueOf(valor)); // escribimos el valor
+        raf.writeBytes(String.valueOf(valor)); // escribimos el valor
         System.out.println("Proceso " + orden + ": SALE sección");
         bloqueo.release(); // Liberamos el bloqueo del canal del fichero
         bloqueo = null;
