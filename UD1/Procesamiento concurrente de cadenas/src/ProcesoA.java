@@ -21,8 +21,6 @@ public class ProcesoA {
 
             writer.println(cadena.toString());
         }
-
-        writer.flush();
         writer.close();
     }
 }

@@ -4,8 +4,7 @@ import java.io.InputStreamReader;
 
 public class ProcesoC {
     public static void main(String[] args) {
-        try {
-            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        try(BufferedReader reader = new BufferedReader(new InputStreamReader(System.in))) {
 
             String linea;
             int totalVocales = 0;

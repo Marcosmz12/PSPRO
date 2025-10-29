@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejecutor",
+            "request": "launch",
+            "mainClass": "Ejecutor",
+            "projectName": "Procesamiento concurrente de cadenas_5061c63d"
+        },
+        {
+            "type": "java",
+            "name": "ProcesoC",
+            "request": "launch",
+            "mainClass": "ProcesoC",
+            "projectName": "Procesamiento concurrente de cadenas_5061c63d"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

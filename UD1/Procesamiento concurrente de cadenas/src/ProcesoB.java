@@ -15,10 +15,7 @@ public class ProcesoB {
             String linea;
             while ((linea = reader.readLine()) != null) {
                 int longitud = linea.length();
-
-                String mensaje = linea + "," + longitud;
-
-                writer.println(mensaje);
+                writer.println(linea + "," + longitud);
             }
 
             writer.flush();

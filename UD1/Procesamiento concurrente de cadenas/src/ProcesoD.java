@@ -1,40 +1,31 @@
-import java.io.InputStream;
-import java.io.OutputStream;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
 
 public class ProcesoD {
     public static void main(String[] args) {
-        if (args.length != 1) {
-            System.err.println("No se ha pasado ningun parametro");
+        if (args.length !=1) {
+            System.out.println("Uso: java ProcesoD <número_de_procesos>");
             return;
         }
-
-        int ejecuciones;
+        int n;
         try {
-            ejecuciones = Integer.parseInt(args[0]);
-            if (ejecuciones <= 0 || ejecuciones >= 10) {
-                System.err.println("El número debe ser positivo y menor que 10.");
-                return;
-            }
-        } catch (NumberFormatException e) {
-            System.err.println("El argumento debe ser un número entero.");
+            n = Integer.parseInt(args[0]);
+        } catch (Exception e) {
+            System.out.println("El argumento debe ser un número.");
+            return;
+        }
+        if (n <= 0 || n >= 10) {
+            System.out.println("El número de procesos debe estar entre 1 y 9.");
             return;
         }
 
-        for (int i = 0; i < ejecuciones; i++) {
+        for (int i = 0; i < n; i++) {
             try {
-                String orden = "cmd /c start cmd /k \"java ProcesoA.java | ProcesoB.java | ProcesoC.java";
-
-                String[] split = orden.split(" ");
-                Runtime.getRuntime().exec(split);
-
-            } catch (IOException e) {
-                System.err.println("Error al ejecutar los procesos: " + e.getMessage());
+                System.out.println("Ejecución número " + (i+1));
+                String comando = "cmd /c start cmd /k \"java ProcesoA.java | java ProcesoB.java | java ProcesoC.java";
+                String[] comandos = comando.split(" ");
+                Runtime.getRuntime().exec(comandos);
+            } catch (Exception e) {
+                System.out.println("Error al ejecutar los procesos: " + e.getMessage());
             }
         }
-    }
-}
+    }}
