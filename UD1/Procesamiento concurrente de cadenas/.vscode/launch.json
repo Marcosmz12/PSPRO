@@ -1,0 +1,45 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ProcesoA",
+            "request": "launch",
+            "mainClass": "ProcesoA",
+            "projectName": "Procesamiento concurrente de cadenas_dc8a4938"
+        },
+        {
+            "type": "java",
+            "name": "ProcesoB",
+            "request": "launch",
+            "mainClass": "ProcesoB",
+            "projectName": "Procesamiento concurrente de cadenas_dc8a4938"
+        },
+        {
+            "type": "java",
+            "name": "ProcesoC",
+            "request": "launch",
+            "mainClass": "ProcesoC",
+            "projectName": "Procesamiento concurrente de cadenas_dc8a4938"
+        },
+        {
+            "type": "java",
+            "name": "ProcesoD",
+            "request": "launch",
+            "mainClass": "ProcesoD",
+            "cwd": "${workspaceFolder}/src",
+            "args": [
+                "4"
+            ]
+        }
+    ]
+}
