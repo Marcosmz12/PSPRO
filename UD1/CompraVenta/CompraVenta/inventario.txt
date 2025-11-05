@@ -1,0 +1,3 @@
+Articulo 1:  10 unidades, precio 10.
+Articulo 2:   5 unidades, precio 20.
+Articulo 3:   8 unidades, precio 30.
