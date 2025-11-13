@@ -1,4 +1,4 @@
-## Problema: Control de tráfico en un cruce
+Problema: Control de tráfico en un cruce
 
 Imaginemos un cruce de caminos donde hay dos calles que se cruzan (Calle A y Calle B). Cada calle tiene una serie de coches que intentan cruzar el cruce. Solo puede pasar un coche a la vez, y los coches de una calle deben esperar si hay un coche cruzando de la otra calle. 
 
@@ -8,7 +8,7 @@ El sistema tiene las siguientes reglas:
 2. Solo se utiliza un semáforo para controlar el acceso al cruce, además de un contador para llevar la cuenta de los coches en espera en cada calle.
 
 
-## Explicación del código
+Explicación del código
 
 1. Clase `ControladorCruce`:
    - Controla el acceso al cruce y el flujo de coches de ambas calles.
